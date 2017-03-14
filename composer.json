@@ -1,0 +1,26 @@
+{
+    "name": "chongwu/esia",
+    "description": "Esia service provider for Laravel framework",
+    "license": "MIT",
+    "authors": [{
+        "name": "Chongwu",
+        "email": "jokerd1@gmail.com"
+    }],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "socialiteproviders/esia": "dev-master",
+        "laravel/socialite": "~2.0",
+        "socialiteproviders/manager": "~2.0 || ~3.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chongwu/ESIA"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chongwu\\Esia\\": "src/"
+        }
+    }
+}
