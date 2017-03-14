@@ -6,15 +6,9 @@
         "name": "Chongwu",
         "email": "jokerd1@gmail.com"
     }],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/chongwu/ESIA-Socialite"
-        }
-    ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "socialiteproviders/esia": "dev-master",
+        "chongwu/esiasocialiteprovider": "dev-master",
         "laravel/socialite": "~2.0"
     },
     "autoload": {
