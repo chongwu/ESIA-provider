@@ -8,7 +8,7 @@
     }],
     "require": {
         "php": "^5.6 || ^7.0",
-        "chongwu/esiasocialiteprovider": "dev-master",
+        "chongwu/esiasocialiteprovider": "@dev",
         "laravel/socialite": "~2.0"
     },
     "autoload": {
